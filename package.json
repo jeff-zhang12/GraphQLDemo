@@ -1,0 +1,28 @@
+{
+  "name": "graphqldemo",
+  "version": "1.0.0",
+  "description": "This is a demo API for GraphQL",
+  "homepage": "https://github.com/jeff-zhang12/GraphQLDemo#readme",
+  "bugs": {
+    "url": "https://github.com/jeff-zhang12/GraphQLDemo/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jeff-zhang12/GraphQLDemo.git"
+  },
+  "license": "ISC",
+  "author": "",
+  "type": "commonjs",
+  "main": "dist/index.js",
+  "scripts": {
+    "dev": "ts-node-dev --respawn --transpile-only src/index.ts"
+  },
+  "dependencies": {
+    "@apollo/server": "^5.1.0",
+    "graphql": "^16.12.0"
+  },
+  "devDependencies": {
+    "ts-node-dev": "^2.0.0",
+    "typescript": "^5.6.3"
+  }
+}
