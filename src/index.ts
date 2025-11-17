@@ -4,7 +4,6 @@ import { startStandaloneServer } from '@apollo/server/standalone';
 const typeDefs = /* GraphQL */ `
   type Query {
     hello: String!
-    project(id: Int!): Project!
   }
 `;
 
